@@ -1,7 +1,8 @@
 import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
+
 import { FileIndexState, PackageLinks } from '@ag108/ct-utils';
 
-const PKG_NAME = 'filesys';
+const PKG_NAME = 'attachments';
 
 export const Image = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return <PackageLinks modules={['insert']} pkgName={PKG_NAME} libName='image' backTab={FileIndexState} setTab={setTab} />;
