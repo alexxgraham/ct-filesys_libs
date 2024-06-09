@@ -29,3 +29,5 @@ export const IndexFilesys = ({setTab}: {setTab: TabDispatchAction}) => {
 		</article>
 	);
 }
+
+export { Image, Pdf, Other } from '~/libs'
