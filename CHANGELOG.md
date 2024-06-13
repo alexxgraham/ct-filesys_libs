@@ -1,5 +1,11 @@
 # @ag108/ct-filesys_libs
 
+## 1.0.4
+
+### Patch Changes
+
+- 72f2641: fixed conflicting tailwind classes with IndexFilesys classes for lts of ct-util classes
+
 ## 1.0.3
 
 ### Patch Changes
